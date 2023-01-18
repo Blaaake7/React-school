@@ -1,0 +1,38 @@
+body {
+  background-color: #22254b;
+}
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container {
+  width: 250px;
+  margin: 16px;
+  border: 2px solid white;
+  background-color: #373b69;
+  border-radius: 5px;
+}
+
+.movie-container img {
+  max-width: 100%;
+  min-height: 375px;
+}
+
+.movie-info {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.movie-info h4 {
+  margin: 0;
+}
+
+.movie-info span {
+  margin-left: 3px;
+}
