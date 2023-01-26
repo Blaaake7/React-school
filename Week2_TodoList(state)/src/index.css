@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.listItem {
+  margin: 28px;
+  font-size: 35px;
+}
+
+.deleteBtn {
+  margin-left: 20px;
+  border: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size : 30px;
+}
+
+.modifyBtn {
+  margin-left: 20px;
+  border: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size : 30px;
+}
+
+.inputTitle {
+  font-size: 25px;
+}
+
+.todoInput {
+  border-radius: 8px;
+  font-size: 25px;
+}
+
+.todo {
+margin: 40px;
+}
+
+.todoTitle {
+  font-size: 32px;
+}
+
+.contentWrap {
+  margin: 16px;
+}
+
+.submit {
+  font-size: 20px;
+  background-color: lightblue;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 4px 16px;
+}
