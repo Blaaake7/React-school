@@ -1,0 +1,108 @@
+body {
+  margin: auto;
+  max-width: 1400px;
+}
+
+.userInfo_detail {
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 48px;
+}
+
+.header_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+.titleLogo {
+  display: flex;
+  align-items: center;
+}
+
+.korean_title {
+  display: inline-block;
+  margin: auto;
+  margin-left: 16px;
+  color: rgb(95 0 128);
+}
+
+.search_input {
+  font-size: 16px;
+  width: 400px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgb(95 0 128);
+}
+
+.title_icon_item {
+  width: 36px;
+  height: 36px;
+  font-size: 36px;
+  margin: 12px 24px;
+}
+
+.categories ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 16px;
+}
+
+.category_nav_items {
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.category_item {
+  text-decoration: none;
+  color: black;
+}
+
+.title_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.goods_container {
+  width: 400px;
+  margin: 16px;
+  /* border: 2px solid black ; */
+  background-color: lightgray;
+  border-radius: 6px;
+  color: white;
+}
+
+.goods_container:hover {
+  transform: scale(1.07);
+  transition: all 300ms ease;
+}
+
+.goods_container img {
+  max-width: 100%;
+  min-height: 375px;
+  border-radius: 6px;
+}
+
+.goods_info {
+  padding: 16px;
+}
+
+h2, h3 {
+  margin: 10px 8px;
+}
+
+.content_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
