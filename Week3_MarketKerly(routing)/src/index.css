@@ -106,3 +106,15 @@ h2, h3 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.show__btn {
+  font-size: 35px;
+  margin: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.show__wrapper {
+  display: flex;
+  justify-content: center;
+}

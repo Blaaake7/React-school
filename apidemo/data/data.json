@@ -1,0 +1,40 @@
+{
+    "newProduct": [
+        {
+        "id": 1,
+        "name": "Flower",
+        "price": "25,000",
+        "img_path": "https://product-image.kurly.com/cdn-cgi/image/quality=85,width=676/product/image/5e1f2528-9ef3-412c-91d0-0602bbebc9a2.jpg"
+        },
+        {
+        "id": 2,
+        "name": "Soup",
+        "price": "10,500",
+        "img_path":"https://product-image.kurly.com/cdn-cgi/image/quality=85,width=676/product/image/e9b1d7cf-efd3-44d9-ba0e-6e89d2b6f471.jpg"
+        },
+        {
+        "id": 3,
+        "name": "Orange",
+        "price": "12,600",
+        "img_path":"https://product-image.kurly.com/cdn-cgi/image/quality=85,width=676/product/image/1480dccb-25f6-44d9-8317-88cd21215c80.jpg"
+        },
+        {
+        "id": 4,
+        "name": "Oriental Melon",
+        "price": "19,900",
+        "img_path":"https://img-cf.kurly.com/cdn-cgi/image/quality=85,width=676/shop/data/goods/1653038449592l0.jpeg"
+        },
+        {
+        "id": 14,
+        "name": "Oil",
+        "price": "9,000",
+        "img_path": "https://product-image.kurly.com/cdn-cgi/image/quality=85,width=676/product/image/f70bf998-04b5-4a20-8472-08cdfa81c7b9.jpg"
+        },
+        {
+        "id": 15,
+        "name": "Cream",
+        "price": "44,000",
+        "img_path": "https://product-image.kurly.com/cdn-cgi/image/quality=85,width=676/product/image/38ac2258-354d-4023-bd20-df0f8dd2a3b6.jpg"
+        }
+    ]
+}

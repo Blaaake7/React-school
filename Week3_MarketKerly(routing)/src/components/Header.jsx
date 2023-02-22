@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import NewProduct from '../pages/NewProduct';
 
 export default function Header() {
     const [word, setWord] = useState();
@@ -50,7 +51,7 @@ export default function Header() {
                     </Link>
                 </li>
                 <li className="category_nav_items">
-                    <Link className='category_item' to='/newproduct'>
+                    <Link className='category_item' to='/newproduct' onClick={NewProduct.getProduct}>
                         신상품
                     </Link>
                 </li>
